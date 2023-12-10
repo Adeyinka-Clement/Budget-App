@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+input:focus{
+    box-shadow: none !important;
+    background-color: antiquewhite;
+    
+    
+}
+.wholething{
+    background-color: antiquewhite !important;
+
+}
+h1{
+    color: red !important;
+}
+button{
+    background-color: red !important;
+    color: antiquewhite !important;
+}
+button:hover{
+    background-color: black !important;
+}
+h3{
+    color: red !important;
+}
+h2{
+    color: red !important;
+}
+.value{
+    display: flex !important;
+    flex-direction: row !important;
+}

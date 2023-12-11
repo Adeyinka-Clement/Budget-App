@@ -7,7 +7,7 @@ function submit() {
             var confirmation = confirm("Are you sure you want to proceed?")
             if (confirmation == true){
                 var sum = ( Number(list1.value) + Number(list2.value) + Number(list3.value) + Number(list4.value) )
-            if (sum > "1000"){
+            if (sum > "10000"){
                 show.innerHTML = "You cant spend more than 10K"
             }
             else{
